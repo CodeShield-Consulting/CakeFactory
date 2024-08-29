@@ -1,0 +1,92 @@
+/* Importer la police Shrikhand */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+body{ 
+    
+        background-image: url('./assets/bg3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+}
+.navbar-custom {
+  background-color: rgb(6, 6, 6);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #efe9e9; 
+  font-family: 'Shrikhand', cursive; 
+  font-weight: normal; 
+  margin-left: 20px;
+}
+
+.navbar-toggler-custom {
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15rem; 
+    justify-content: center;
+    align-items: stretch;
+    
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 1rem); 
+    margin-bottom: 1rem; 
+    height: 100%; 
+  }
+
+.card-price {
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+  
+  .card-img-top {
+    height: 525px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title, .card-text, .card-price {
+    margin: 0; 
+  }
+  
+  .card {
+    min-height: 350px; 
+  }
+
+.shopping-cart {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+  .footer-custom {
+    color: #dfd5d5;
+    font-family: 'Shrikhand', cursive;
+    font-weight: normal;
+    background-color: rgb(7, 7, 7);
+  }
+  
+  .footer-custom a {
+    color: #000000;
+  }
+   
+  .footer-custom .col-md-6 .text-md-start {
+    color: white ;
+  }
+
+  .row-footer {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    
+  }
